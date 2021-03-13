@@ -486,9 +486,16 @@ body {
   margin: 30px;
 }
 
-.colors {
-  padding-left: 150px;
-  padding-top: 74px;
+/* Colors & Type styles start */
+
+.colors-type {
+  padding-top: 145px;
+  padding-bottom: 145px;
+  max-width: 1142px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .color-item {
@@ -539,3 +546,75 @@ body {
 .color-item:nth-child(7)::before {
   background: #6fcf97;
 }
+
+.type-item {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 51px;
+}
+
+.type-name {
+  color: rgba(31, 32, 65, 0.25);
+}
+
+.type-text {
+  padding-left: 30px;
+  color: #1f2041;
+  max-width: 400px;
+}
+
+.type-item-h1 {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.type-item-h1 .type-name {
+  padding-left: 8px;
+}
+
+.type-item-h1 .type-text {
+  font-family: "Conv_Montserrat-Bold";
+}
+
+.type-item-h2 {
+  font-size: 19px;
+  line-height: 23px;
+}
+
+.type-item-h2 .type-name {
+  padding-left: 10px;
+}
+
+.type-item-h2 .type-text {
+  font-family: "Conv_Montserrat-Bold";
+}
+
+.type-item-h3 {
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.type-item-h3 .type-name {
+  padding-left: 20px;
+}
+
+.type-item-h3 .type-text {
+  font-family: "Conv_Montserrat-Bold";
+}
+
+.type-item-body {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.type-item-body .type-name {
+  padding-left: 0;
+}
+
+.type-item-body .type-text {
+  color: rgba(31, 32, 65, 0.75);
+  max-width: 340px;
+}
+
+/* Colors & Type styles end */
